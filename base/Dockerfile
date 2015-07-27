@@ -7,5 +7,4 @@ RUN \
 ADD configs /opt/configs
 ADD scripts /opt/scripts
 
-RUN sh /opt/scripts/ruby-install/install.sh 0.5.0
-RUN sh /opt/scripts/ruby/install.sh
+RUN sh /opt/scripts/php/v5.6/install.sh
