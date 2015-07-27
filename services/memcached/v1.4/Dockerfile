@@ -1,6 +1,6 @@
 FROM ianchesal/base
 
-RUN yum update && yum install --yes memcached
+RUN yum update && yum --yes install memcached
 
 EXPOSE 11211
 
