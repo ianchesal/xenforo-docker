@@ -2,7 +2,7 @@ FROM centos:latest
 
 RUN \
   yum update && \
-  yum --yes install wget curl patchutils gcc
+  yum -y install wget curl patchutils gcc
 
 ADD configs /opt/configs
 ADD scripts /opt/scripts
