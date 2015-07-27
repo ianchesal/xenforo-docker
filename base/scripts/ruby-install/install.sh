@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -ex
 
 OUT_FILE="ruby-install-"$1".tar.gz"
 REMOTE_FILE="v"$1".tar.gz"

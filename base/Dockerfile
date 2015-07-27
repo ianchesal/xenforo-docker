@@ -1,7 +1,7 @@
 FROM centos:latest
 
 RUN \
-  yum update --yes && \
+  yum update && \
   yum install --yes wget curl patchutils gcc
 
 ADD configs /opt/configs
